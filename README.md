@@ -53,7 +53,7 @@ The DLG logo has been provided at `dlg_logo.png` and we exported it @2x and @3x 
 1. The Web App should allow a user to click the CREATE CAMPAIGN button to trigger a modal.
    - The modal should close via the CLOSE button.
 1. The Node Server should have a GET endpoint that allows you to request the `mock_data.json` in some fashion. E.g. `/equipment`
-1. A Github repo or Zip file sent to `dlgdevs@gmail.com` where we can view / checkout and load up the code to see your submission.
+1. A Github repo or Zip file sent to `dirtylittlegoblins@gmail.com` where we can view / checkout and load up the code to see your submission.
 1. This should be to a work standard of code, we expect you to think about certain situations for the user, what if X happened while browsing.
 
 ## :star: Bonus (Only if you have time, we're honestly not bothered)
