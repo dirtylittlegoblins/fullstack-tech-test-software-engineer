@@ -1,0 +1,179 @@
+[
+  {
+    "type": "weapon",
+    "data": [
+      {
+        "damageDiceType": 4,
+        "damageDiceAmount": 1,
+        "damageType": "Bludgeoning",
+        "abilityType": "Strength",
+        "properties": ["Light"],
+        "id": 1,
+        "type": "Simple Melee",
+        "entityType": "weapon",
+        "name": "Club",
+        "description": null,
+        "weight": 2,
+        "cost": "0.1",
+        "phb": 149
+      },
+      {
+        "damageDiceType": 4,
+        "damageDiceAmount": 1,
+        "damageType": "Piercing",
+        "abilityType": "Dexterity",
+        "properties": ["Finesse", "Thrown (range 20/60)", "Light"],
+        "id": 2,
+        "type": "Simple Melee",
+        "entityType": "weapon",
+        "name": "Dagger",
+        "description": null,
+        "weight": 1,
+        "cost": "2",
+        "phb": 149
+      },
+      {
+        "damageDiceType": 8,
+        "damageDiceAmount": 1,
+        "damageType": "Bludgeoning",
+        "abilityType": "Strength",
+        "properties": ["Two-handed"],
+        "id": 3,
+        "type": "Simple Melee",
+        "entityType": "weapon",
+        "name": "Greatclub",
+        "description": null,
+        "weight": 10,
+        "cost": "0.2",
+        "phb": 149
+      },
+      {
+        "damageDiceType": 6,
+        "damageDiceAmount": 1,
+        "damageType": "Slashing",
+        "abilityType": "Strength",
+        "properties": ["Thrown (range 20/60)", "Light"],
+        "id": 4,
+        "type": "Simple Melee",
+        "entityType": "weapon",
+        "name": "Handaxe",
+        "description": null,
+        "weight": 2,
+        "cost": "5",
+        "phb": 149
+      }
+    ]
+  },
+  {
+    "type": "equipment",
+    "data": [
+      {
+        "id": 1,
+        "type": "Adventuring Gear",
+        "entityType": "equipment",
+        "name": "Abacus",
+        "description": null,
+        "weight": 2,
+        "cost": "2",
+        "phb": 150
+      },
+      {
+        "id": 2,
+        "type": "Adventuring Gear",
+        "entityType": "equipment",
+        "name": "Acid (vial)",
+        "description": "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",
+        "weight": 1,
+        "cost": "25",
+        "phb": 150
+      },
+      {
+        "id": 3,
+        "type": "Adventuring Gear",
+        "entityType": "equipment",
+        "name": "Alchemist's fire (flask)",
+        "description": "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",
+        "weight": 1,
+        "cost": "50",
+        "phb": 150
+      }
+    ]
+  },
+  {
+    "type": "magicitem",
+    "data": [
+      {
+        "rarity": "Uncommon",
+        "attunement": false,
+        "id": 1,
+        "type": "Armor",
+        "entityType": "magicitem",
+        "name": "Adamantine Armor",
+        "description": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+        "weight": 0,
+        "cost": "0",
+        "phb": 150
+      },
+      {
+        "rarity": "Uncommon",
+        "attunement": false,
+        "id": 2,
+        "type": "Wondrous Item",
+        "entityType": "magicitem",
+        "name": "Alchemy Jug",
+        "description": "This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty. You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named. Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn. ",
+        "weight": 12,
+        "cost": "0",
+        "phb": 150
+      },
+      {
+        "rarity": "Uncommon",
+        "attunement": false,
+        "id": 3,
+        "type": "Weapon",
+        "entityType": "magicitem",
+        "name": "Ammunition, +1",
+        "description": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",
+        "weight": 0,
+        "cost": "0",
+        "phb": 150
+      },
+      {
+        "rarity": "Rare",
+        "attunement": false,
+        "id": 4,
+        "type": "Weapon",
+        "entityType": "magicitem",
+        "name": "Ammuntion, +2",
+        "description": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",
+        "weight": 0,
+        "cost": "0",
+        "phb": 150
+      },
+      {
+        "rarity": "Very Rare",
+        "attunement": false,
+        "id": 5,
+        "type": "Weapon",
+        "entityType": "magicitem",
+        "name": "Ammuntion, +3",
+        "description": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",
+        "weight": 0,
+        "cost": "0",
+        "phb": 150
+      },
+      {
+        "rarity": "Rare",
+        "attunement": true,
+        "id": 6,
+        "type": "Wondrous Item",
+        "entityType": "magicitem",
+        "name": "Amulet of Health",
+        "description": "Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.",
+        "weight": 0,
+        "cost": "0",
+        "phb": 150
+      }
+    ]
+  }
+]
